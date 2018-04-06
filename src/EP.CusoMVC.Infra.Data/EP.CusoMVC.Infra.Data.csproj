@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BFA906E6-56F6-45B4-9608-1B71009C8D2D}</ProjectGuid>
+    <ProjectGuid>{E9FB3DCC-F128-408E-98C1-FAC1DE8D0B90}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EP.CursoMVC.Domain</RootNamespace>
-    <AssemblyName>EP.CursoMVC.Domain</AssemblyName>
+    <RootNamespace>EP.CusoMVC.Infra.Data</RootNamespace>
+    <AssemblyName>EP.CusoMVC.Infra.Data</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,8 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entity\Cliente.cs" />
-    <Compile Include="Entity\Endereco.cs" />
+    <Compile Include="Context\CursoMvcContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

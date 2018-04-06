@@ -20,7 +20,7 @@ namespace EP.CursoMVC.Domain.Entity
         public DateTime DataNascimento { get; set; }
         public DateTime DataCadastro { get; set; }
         public bool Ativo { get; set; }
-        public virtual ICollection<Endereco> Enderecos { get; set; } //virtual = pode ser sobrescrita e habilita o layzlong
+        public virtual ICollection<Endereco> Enderecos { get; set; } //virtual = pode ser sobrescrita e habilita o layzload
         
     }
 }
